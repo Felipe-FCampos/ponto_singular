@@ -14,6 +14,3 @@ Este portfólio foi construído utilizando:
 
 Frontend: React, Angular, TypeScript\n
 Backend: C, C#, Python
-
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
