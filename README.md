@@ -12,6 +12,8 @@ Explore e descubra como utilizo tecnologia para resolver problemas e criar exper
 ## 🚀 Tecnologias Utilizadas
 Este portfólio foi construído utilizando:
 
-Frontend: React, TypeScript, TailwindCSS.
-Backend: Node.js, Express, MongoDB.
-Outras Ferramentas: Docker, GitHub Actions.
+Frontend: React, Angular, TypeScript\n
+Backend: C, C#, Python
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
