@@ -1,0 +1,85 @@
+.skillSection {
+    margin: 2% 0 0 300px;
+
+    @media (min-width: 1440px) {
+        margin: 3% 300px 0 300px;
+    }
+
+    @media (min-width: 2000px) {
+        margin: 10% 0 0 0;
+    }
+
+    .titleSkill {
+        color: #353535;
+        font-family: "Roboto", serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 53px;
+        margin: 0 0 120px 0;
+
+        @media(max-width: 1440px) {
+            font-size: 33px;
+            margin: 0 0 120px 0;
+        }
+    }
+
+    .skillDiv {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .skillInfo {
+            height: 194px;
+            max-width: 323px;
+            width: 100%;
+
+            p {
+                font-family: "Roboto", serif;
+                color: #474751;
+                font-weight: 300;
+                @media(max-width: 1440px) {
+                    font-size: 16px;
+                }
+            }
+
+            .skillMainInfo {
+                margin: 0 0 24px 0;
+                display: flex;
+                align-items: center;
+                font-family: "Roboto", serif;
+                text-transform: uppercase;
+
+                h2 {
+                    font-size: 80px;
+                    color: #41556A;
+                    margin: 0 24px 0 0;
+                    @media(max-width: 1440px) {
+                        font-size: 40px;
+                    }
+                }
+
+                .skillNameInfo {
+
+                    .skill {
+                        color: #420F30;
+                        font-weight: 500;
+                    }
+
+                    .area {
+                        color: #FDB84C;
+                        font-weight: 500;
+                    }
+
+                    h3 {
+                        font-size: 30px;
+                        @media(max-width: 1440px) {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
