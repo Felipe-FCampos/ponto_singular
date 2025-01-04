@@ -1,0 +1,106 @@
+.toolRow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10%;
+    margin: 32px 0px 32px 0px;
+
+    .toolRow.selected-row {
+        transform: scale(1.05);
+    }
+
+    .toolImage {
+        width: 60px;
+        height: 60px;
+        
+        @media (min-width: 1441px) {
+            width: 142px;
+            height: 142px;
+        }
+    }
+
+    .toolHide {
+        max-width: 140px;
+        width: 100%;
+        height: 140px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .2s;
+        border-radius: 8px;
+        cursor: pointer;
+
+        @media (min-width: 1441px) {
+            max-width: 271px;
+            width: 100%;
+            height: 271px;
+        }
+    }
+    
+    .toolHide.same-row {
+        width: 100%;
+        max-width: 271px;
+    }
+
+    .toolShown {
+        display: flex;
+        flex-direction: column;
+        max-width: 516px;
+        width: 100%;
+        height: 100%;
+        transition: .2s;
+        background-color: #ffffff;
+        padding: 10px 33px 10px 33px;
+        box-shadow: 0 0 8px 0px #41556a2c;
+        border-radius: 8px;
+        cursor: pointer;
+
+        @media (min-width: 1441px) {
+            max-width: 816px;
+        }
+    
+        .toolName {
+            display: flex;
+            align-items: center;
+            margin: 0;
+            @media (min-width: 1441px) {
+                margin: 0 0 13px 0;
+            }            
+
+            h2 {
+                font-family: "Roboto", serif;
+                color: #41556A;
+                font-weight: 500;
+                font-size: 16px;
+                text-transform: uppercase;
+                padding: 24px;
+
+                @media (min-width: 1441px) {
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .toolInfo {
+            p {
+                font-family: "Roboto", serif;
+                color: #41556A;
+                font-weight: 300;
+                font-size: 14px;
+                @media (min-width: 1441px) {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .toolImageShown {
+            width: 32px;
+            height: 32px;
+
+            @media (min-width: 1441px) {
+                width: 64px;
+                height: 64px;
+            }
+        }
+    }
+}
