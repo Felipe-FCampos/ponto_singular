@@ -1,0 +1,102 @@
+{
+    "tools": {
+        "tool": [
+            {
+                "id": 1,
+                "name": "Angular",
+                "image": "angular.svg",
+                "description": "O Angular é um framework de desenvolvimento web de código aberto, que permite criar aplicações dinâmicas de alta performance com uma arquitetura baseada em componentes."
+            },
+            {
+                "id": 2,
+                "name": "C-Sharp",
+                "image": "csharp.svg",
+                "description": "Uma linguagem de programação moderna e orientada a objetos desenvolvida pela Microsoft, amplamente usada para desenvolvimento de aplicações desktop, web e jogos."
+            },
+            {
+                "id": 3,
+                "name": "Python",
+                "image": "python.svg",
+                "description": "Uma linguagem de programação versátil e de fácil leitura, ideal para ciência de dados, automação, inteligência artificial e desenvolvimento web."
+            },
+            {
+                "id": 4,
+                "name": "C",
+                "image": "c.svg",
+                "description": "Uma linguagem de programação de baixo nível extremamente eficiente, usada principalmente para desenvolvimento de sistemas operacionais, drivers e software embarcado."
+            },
+            {
+                "id": 5,
+                "name": "React",
+                "image": "react.svg",
+                "description": "Uma biblioteca JavaScript para criação de interfaces de usuário interativas e escaláveis, baseada em componentes reutilizáveis."
+            },
+            {
+                "id": 6,
+                "name": "JavaScript",
+                "image": "javascript.svg",
+                "description": "Uma linguagem de programação essencial para o desenvolvimento web, permitindo criar páginas dinâmicas e interativas no lado do cliente."
+            },
+            {
+                "id": 7,
+                "name": "TypeScript",
+                "image": "typescript.svg",
+                "description": "Um superconjunto de JavaScript que adiciona tipagem estática, tornando o código mais robusto e fácil de manter em grandes projetos."
+            },
+            { 
+                "id": 8,
+                "name": "Java",
+                "image": "java.svg",
+                "description": "Uma linguagem de programação robusta e multiplataforma, amplamente utilizada para desenvolvimento corporativo, mobile e aplicações web."
+            },
+            {
+                "id": 9,
+                "name": "Sass/Scss",
+                "image": "sass.svg",
+                "description": "Um pré-processador CSS que simplifica a escrita de estilos, permitindo o uso de variáveis, mixins e outras funcionalidades avançadas."
+            },
+            {
+                "id": 10,
+                "name": "HTML5",
+                "image": "html.svg",
+                "description": "A última versão do HTML, usada para estruturar e apresentar conteúdo na web, com suporte aprimorado para multimídia e interatividade."
+            },
+            {
+                "id": 11,
+                "name": "Git",
+                "image": "git.svg",
+                "description": "Um sistema de controle de versão distribuído, essencial para rastrear mudanças no código e colaborar em projetos de desenvolvimento."
+            },
+            {
+                "id": 12,
+                "name": "MySQL",
+                "image": "mysql.svg",
+                "description": "Um sistema de gerenciamento de banco de dados relacional rápido e confiável, amplamente usado em aplicações web."
+            },
+            {
+                "id": 13,
+                "name": "FastAPI",
+                "image": "fastapi.svg",
+                "description": "Um framework Python moderno e eficiente, ideal para construir APIs REST de alta performance com facilidade e validação integrada."
+            },
+            {
+                "id": 14,
+                "name": "Firestore",
+                "image": "firestore.svg",
+                "description": "Um banco de dados em tempo real e na nuvem do Google Firebase, projetado para sincronização eficiente e escalabilidade."
+            },
+            {
+                "id": 15,
+                "name": "CSS3",
+                "image": "css.svg",
+                "description": "A última versão do CSS, usada para estilizar páginas web com animações, layouts responsivos e efeitos visuais avançados."
+            },
+            {
+                "id": 16,
+                "name": "Figma",
+                "image": "figma.svg",
+                "description": "Uma ferramenta de design colaborativa baseada na nuvem, amplamente utilizada para criar interfaces de usuário e protótipos interativos."
+            }
+        ]
+    }
+}

@@ -57,3 +57,33 @@
     height: 820px;
     background-color: #41556A;
 }
+
+.tools {
+    padding: 24px 0 24px 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F2F9FF;
+    
+    .toolsInfo {
+        margin: 32px 300px 32px 300px;
+
+        @media (min-width: 1441px) {
+            margin: 32px 300px 32px 300px;
+        }
+    
+        @media (min-width: 2000px) {
+            margin: 32px 300px 32px 300px;
+        }
+
+        .toolTitle {
+            font-family: 'Roboto', sans-serif;
+            color: #41556A;
+            text-transform: uppercase;
+            font-size: 24px;
+            
+            h2 {
+                font-weight: 500;
+            }
+        }
+    }
+}

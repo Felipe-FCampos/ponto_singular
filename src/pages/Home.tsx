@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import '../App.css'
 import About from "../components/about/About";
 import Projetos from "../components/Projects/Projects";
+import Tools from "../components/Tools/Tools";
 
 
 export default function Home() {
@@ -16,10 +17,18 @@ export default function Home() {
                 </div>
             </div>
             <div className="about">
-            <About />
+                <About />
             </div>
             <div className="projetos">
-            <Projetos />
+                <Projetos />
+            </div>
+            <div className="tools">
+                <div className='toolsInfo'>
+                    <div className="toolTitle">
+                        <h2>Tecnologias</h2>
+                    </div>
+                    <Tools />
+                </div>
             </div>
         </>
     )
