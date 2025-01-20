@@ -4,6 +4,7 @@ import '../App.css'
 import About from "../components/about/About";
 import Projetos from "../components/Projects/Projects";
 import Tools from "../components/Tools/Tools";
+import Contact from "../components/Contact/Contact";
 
 
 export default function Home() {
@@ -29,6 +30,9 @@ export default function Home() {
                     </div>
                     <Tools />
                 </div>
+            </div>
+            <div className="contact">
+                <Contact/>
             </div>
         </>
     )
